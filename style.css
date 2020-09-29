@@ -1,0 +1,121 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+.background-color{
+min-height:100%;
+background-image: url('images/bg-curvy-desktop.svg'), linear-gradient(hsl(217, 28%, 15%) 32%, hsl(218, 28%, 13%) 30%);
+z-index:-2;
+background-position:center 20%;
+background-repeat:no-repeat;
+}
+
+@media screen and (max-width:450px)
+{
+.background-color{
+background-image: url('images/bg-curvy-mobile.svg'), linear-gradient(hsl(217, 28%, 15%) 10%, hsl(218, 28%, 13%) 9%);
+background-position:center 7%;
+}
+}
+
+.raleway{
+font-family:"Raleway" !important;
+}
+
+.open{
+font-family:"Open Sans" !important;
+}
+
+.btn-cyan{
+background-color:hsl(176, 68%, 64%);
+}
+
+.rounded-sides{
+padding:5px 35px;
+border-radius:1rem;
+}
+
+@media screen and (max-width:450px)
+{
+.navbar-nav{
+font-size:80% !important;
+}
+}
+
+@media screen and (max-width : 450px)
+{
+.lg-width{
+width:100% !important;
+}
+}
+
+.text-cyan{
+color:hsl(176, 68%, 64%);
+}
+
+.text-cyan:link{
+border-bottom: 2px solid hsl(176, 68%, 64%);
+}
+
+.text-cyan:hover{
+border-bottom:none;
+text-decoration:none;
+color:hsl(176, 68%, 64%);
+}
+
+.bg-test{
+background-color:hsl(219, 30%, 18%);
+}
+
+.testimonials{
+font-size:95%;
+box-shadow:1px 1px 5px #151515;
+border-radius:0.30rem;
+}
+
+.quotes{
+z-index:0;
+position:absolute;
+top: 1.6rem;
+left:-0.5rem;
+}
+
+.bg-email{
+background-color:hsl(217, 28%, 15%);
+box-shadow:1px 1px 4px black;
+border-radius:0.5rem;
+z-index:3;
+}
+
+.form-input{
+width:60% !important;
+}
+
+@media screen and (max-width: 450px)
+{
+.form-input{
+width:100% !important;
+}
+.form-button{
+width:100% !important;
+}
+}
+
+.footer-bg{
+font-size:90% !important;
+background-color: hsl(216, 53%, 9%) ;
+}
+
+.foot-color{
+background-image:linear-gradient(hsl(218, 28%, 13%) 50%, hsl(216, 53%, 9%) 40%);
+}
+
+
+.border-icon{
+border:1px solid white;
+}
+
+.footer-color{
+background:hsl(216, 53%, 9%);
+}
